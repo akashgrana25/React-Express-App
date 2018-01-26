@@ -45,7 +45,7 @@ $ npm start
 ```
 Go to your browser 
 ```sh
-localhost:3000
+localhost:3001
 ```
 
    [React.js]: <https://facebook.github.io/react/>
