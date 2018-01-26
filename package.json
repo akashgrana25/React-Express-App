@@ -1,0 +1,21 @@
+{
+  "name": "React-Express-App",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd views && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm server\" \"npm client\""
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "reactstrap": "^5.0.0-alpha.4"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
+}
